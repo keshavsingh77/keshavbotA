@@ -143,7 +143,7 @@ async def message_handler(event):
                             Button.url('Click To Check Release Date 📅',
                                     f'http://www.google.com/search?q={event.text.replace(" ", "%20")}%20Movie%20Release%20Date')], [
                             Button.url('👉 Search Here 👈',
-                                    f'https://amzn.to/3ykSzxC')]
+                                    f'http://filmy4uhd.vercel.app')]
             await txt.delete()
             result = await event.reply(answer, buttons=newbutton, link_preview=False)
             await asyncio.sleep(Config.AUTO_DELETE_TIME)
@@ -163,9 +163,9 @@ async def message_handler(event):
         )
         message = f'**Click Here 👇 For "{event.text}"**\n\n[🍿🎬 {str(event.text).upper()}\n🍿🎬 {str("Click me for results").upper()}]({tgraph_result})'
         button =  [Button.url('❓How To Open Link❓',
-                                    f'https://t.me/iP_Update/8')], [
+                                    f'https://t.me/sdmoviespointees')], [
                             Button.url('👉 Search Here 👈',
-                                    f'https://amzn.to/3MmfpIu')]
+                                    f'http://filmy4uhd.vercel.app')]
 
         await txt.delete()
         result = await event.reply(message, buttons=button, link_preview=False)
@@ -176,7 +176,7 @@ async def message_handler(event):
     except Exception as e:
         print(e)
         await txt.delete()
-        result = await event.reply("**Some Error While Searching...‼️\n\nReport @RoyalKrrishn 🥷**")
+        result = await event.reply("**Some Error While Searching...‼️\n\nReport @moviesbazaarsupp 🥷**")
         await asyncio.sleep(Config.AUTO_DELETE_TIME)
         await event.delete() 
         return await result.delete()
