@@ -1,6 +1,6 @@
 echo "Cloning Repo...."
-git clone https://github.com/RoyalKrrishna/shareUsWalaBot1.git /shareUsWalaBot1
-cd /shareUsWalaBot1
+git clone https://github.com/keshavsingh77/keshavbotA.git /keshavbotA
+cd /keshavbotA
 pip3 install -r requirements.txt
 echo "Starting Bot...."
 python3 main.py
