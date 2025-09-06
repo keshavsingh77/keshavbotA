@@ -35,12 +35,12 @@ class Config(object):
 
 📡 Server: <a href='https://heroku.com'>Heroku</a>
 
-👨‍💻 Created By: <a href='https://t.me/RoyalKrrishna'>Royal Krrishna</a></b>
+👨‍💻 Created By: <a href='https://t.me/moviesbazaarsupp'>filmy4uhd</a></b>
 """
 
     ABOUT_HELP_TEXT = """
 <b>
-👨‍💻 Developer : <a href='https://t.me/RoyalKrrishna'>Royal Krrishna</a></b>
+👨‍💻 Developer : <a href='https://t.me/moviesbazaarsupp'>filmy4uhd</a></b>
 """
 
     HOME_TEXT = """
@@ -49,7 +49,7 @@ Iꜰ Yᴏᴜ Lɪᴋᴇ Mᴇ!😘
 Pʟᴇᴀꜱᴇ Sʜᴀʀᴇ Mᴇ Wɪᴛʜ Yᴏᴜʀ 
 Fʀɪᴇɴᴅꜱ Aɴᴅ Fᴀᴍɪʟʏ.👨‍👨‍👧
 
-Mᴀᴅᴇ Wɪᴛʜ ❤ Bʏ @RoyalKrrishna
+Mᴀᴅᴇ Wɪᴛʜ ❤ Bʏ @Searching7_filebot
 """
 
     START_MSG = """
@@ -59,5 +59,5 @@ Mᴇ! SʜᴀʀᴇDɪꜱᴋ Mᴏᴠɪᴇ Sᴇᴀʀᴄʜ Bᴏᴛ.🤖
 
 I Cᴀɴ Sᴇᴀʀᴄʜ Mᴏᴠɪᴇꜱ Fᴏʀ Yᴏᴜ.🔍
 
-Mᴀᴅᴇ Wɪᴛʜ ❤ Bʏ @RoyalKrrishna**
+Mᴀᴅᴇ Wɪᴛʜ ❤ Bʏ @Searching7_filebot**
 """
